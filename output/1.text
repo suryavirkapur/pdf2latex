@@ -1,0 +1,39 @@
+Here is the LaTeX content extracted from the handwritten math:
+
+C = AB \text{ where } A,B,C \text{ are } n \times n
+
+\text{Let say } A \text{ is a matrix of order } n \times n
+
+\text{Given:}
+\text{Eigenvalue of } A \text{ is } n \\
+n \text{ is an integer} \\
+\text{All elements of } A \text{ is an integer}
+
+\text{To prove: } \det(A) = nK, \text{ K is an integer}
+
+\text{For diagonal or upper triangular matrix the value of } K=1:
+\det(A) = n
+
+\text{Given: } A \text{ is invertible matrix of order } n \times n
+
+\text{To prove/disprove:}
+\text{rank}(A) = \text{rank}(AB)
+
+\text{For invertible matrix:}
+\det(A) \neq 0 \\
+\text{Rank}(A_{n \times n}) = n
+
+\text{Given: } A \text{ matrix } a,b \in A, a=1, b=-1 \\
+A^2 = 8I
+
+\text{Find eigenvalues:}
+A = \lambda I \\
+A^2 = \lambda^2 I \\
+8I = \lambda^2 I \\
+\lambda = \pm 2\sqrt{2}
+
+\text{Find ratio } \frac{\lambda_{\max}}{\lambda_{\min}} = -1
+
+\text{Given vectors } x,y,z \text{ in space } V:
+x + y + z = 0 \\
+\text{Prove } \text{span}(x,y) = \text{span}(x,z) = \text{span}(y,z)

@@ -1,0 +1,40 @@
+Looking at page 1, I'll extract and convert the mathematical content to LaTeX:
+
+```latex
+\text{Given: } C = AB \text{ where } A,B,C \text{ are } n \times n
+
+\text{i'th row of } C = \text{linear combination of } B \text{ combining}
+\text{coefficient from i'th row of } A
+
+\text{To prove: If } A \text{ is lower triangle matrix, prove } A^{-1} \text{ is lower}
+\text{triangle}
+
+\text{Proof:}
+\text{Let's Assume } A \text{ is lower triangle matrix, in this}
+\text{case the process of linear combination preserves the}
+\text{result of multiplication as lower triangle.}
+
+\text{i.e., if } A \text{ is lower triangle then}
+C = AB
+\text{Resulting in } C \text{ being lower triangle since}
+A \text{ being lower triangular matrix it preserves the structure.}
+
+\text{With this we can also understand that product of}
+\text{two lower triangular matrix will also result in lower}
+\text{triangular matrix.}
+\text{Hence } A \& B \text{ could be both assumed as}
+\text{lower triangular matrix.}
+
+\text{With this, if we express multiplication of two lower}
+\text{triangular matrix is an Identity matrix, then we can say}
+\text{that inverse of lower triangle matrix is also lower}
+\text{triangular.}
+
+C = AB = I
+A = B^{-1}I
+A = B^{-1}
+
+\text{This proves the } B^{-1} \text{ is a lower triangle since multiplication}
+\text{of lower triangle preserves the structure.}
+\text{Hence inverse of lower triangle matrix is also lower triangular}
+```

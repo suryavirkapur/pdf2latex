@@ -1,0 +1,52 @@
+Let me help convert the mathematical content to LaTeX:
+
+$\text{Let A be the invertible lower triangular matrix}$
+
+$AA^{-1} = I$
+
+$\text{Consider } A^{-1} = B$
+
+$L_{ij} = \begin{cases} 
+1, & \text{if } j=i \\
+0, & \text{if } j \neq i
+\end{cases}$
+
+$[A_{i1}, A_{i2}, A_{i3} ... A_{i0}] \begin{bmatrix} B_{1k} \\ B_{2k} \\ B_{3k} \\ \vdots \\ B_{nk} \end{bmatrix} = \begin{cases}
+1, & \text{if } i=k \\
+0, & \text{if } i \neq k
+\end{cases}$
+
+$\sum_{j=1}^n A_{ij}B_{jk} = \begin{cases}
+1, & \text{if } i=k \\
+0, & \text{if } i \neq k
+\end{cases}$
+
+$\text{For } i<k \text{ we have}$
+$\sum_{j=1}^n A_{ij}B_{jk} = 0$
+
+$B_{jk} = 0 \text{ for } i<j$
+
+$A^2 = 8I, q=1, b=-1$
+
+$AV = \lambda V$
+
+$A^2V = \lambda^2 V$
+
+$(8I)V = \lambda^2 V$
+
+$8V = \lambda^2 V$
+
+$\lambda^2 = 8$
+
+$\lambda = \pm 2\sqrt{2}$
+
+$\lambda_{max} = 2\sqrt{2}$
+$\lambda_{min} = -2\sqrt{2}$
+
+$\frac{\lambda_{max}}{\lambda_{min}} = -1$
+
+$\text{Assume } x+y+z=0$
+
+$V_{xy} = ax + by \text{ where } a,b \text{ are scalars}$
+
+$\text{Span}(x,y) = \text{Span}(y,z) = \text{Span}(x,z)$

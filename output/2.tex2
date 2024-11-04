@@ -1,0 +1,32 @@
+Based on page 1, here is the LaTeX content:
+
+Let A be the invertible lower triangular matrix
+
+By the property of inverse:
+AA^{-1} = I
+
+Consider A^{-1} = B
+
+As we know: I_{ij} = \begin{cases} 
+1, \text{ if } j=i \\
+0, \text{ if } j \neq i
+\end{cases}
+
+[A_{i1}, A_{i2}, A_{i3},...A_{i0}] [B_{1k}, B_{2k}, B_{3k},...B_{nk}]^T = \begin{cases}
+1, \text{ if } i=k \\
+0, \text{ if } i \neq k
+\end{cases}
+
+\sum_{j=1}^n A_{ij}B_{jk} = \begin{cases}
+1, \text{ if } i=k \\
+0, \text{ if } i \neq k
+\end{cases}
+
+From (2) for i<k we have:
+\sum_{j=1}^n A_{ij}B_{jk} = 0
+
+But as A is lower triangular matrix
+A_{ij} \neq 0 \text{ for } i<j
+
+So for equation (3) to be 0,
+B_{jk} = 0
